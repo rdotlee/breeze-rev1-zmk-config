@@ -2,6 +2,8 @@
  * Copyright (c) 2022 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
+ * RPL 9/13/25 Note: Need to disable https://discussions.apple.com/thread/255801630?sortBy=rank MAC OS caps lock delay
+ * for mod tap to register short caps lock press Enter this in terminal --> hidutil property --set '{"CapsLockDelayOverride":0}'
  */
 
 #include <behaviors.dtsi>
